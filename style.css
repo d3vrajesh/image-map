@@ -1,0 +1,57 @@
+body {
+     margin: 0, auto;
+     
+}
+.container {
+    width: auto;
+    margin: 20px;
+    border: darkslategrey 1px solid;
+    padding: 5px;
+
+}
+.image-detail {
+    height: 300px;
+    background-color: rgb(233, 233, 233);
+    padding: 10px;
+}
+
+.image-detail-left {
+    width: 40%;
+    background-color: chocolate;
+    height: 300px;
+    float: left;
+}
+
+.image-detail-right {
+    width: 60%;
+    height: 300px;
+     
+    float: left;
+}
+.padding-10 {
+    padding: 5px;
+}
+.image-node-title {
+    color: darkorchid;
+}
+.image-node-button {
+    text-align: right;
+}
+.image-map-box {
+    height: 400px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+/*---zoom---*/
+#zoom {
+    width: 100%;
+    height: 100%;
+    transform-origin: 0px 0px;
+    transform: scale(1) translate(0px, 0px);
+    cursor: grab;
+  }
+  div#zoom > img {
+    width: 100%;
+    height: auto;
+  }
