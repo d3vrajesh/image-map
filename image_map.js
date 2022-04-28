@@ -1,4 +1,4 @@
-var scale = 1,
+/*var scale = 1,
 panning = false,
 pointX = 0,
 pointY = 0,
@@ -39,4 +39,19 @@ pointX = e.clientX - xs * scale;
 pointY = e.clientY - ys * scale;
 
 setTransform();
+} */
+
+function imageNodeClick() {
+
+  let choice = document.getElementById("image-description")
+  switch(choice) {
+    case 1:
+      // code block
+      break;
+    case 2:
+      // code block
+      break;
+    default:
+      // code block
+  } 
 }

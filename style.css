@@ -11,7 +11,6 @@ body {
 }
 .image-detail {
     height: 300px;
-    background-color: rgb(233, 233, 233);
     padding: 10px;
 }
 
@@ -32,10 +31,11 @@ body {
     padding: 5px;
 }
 .image-node-title {
-    color: darkorchid;
+    color:#01699b;
 }
 .image-node-button {
     text-align: right;
+    color:#01699b;
 }
 .image-map-box {
     height: 400px;
@@ -43,7 +43,7 @@ body {
     overflow: hidden;
 }
 
-/*---zoom---*/
+/*---zoom---
 #zoom {
     width: 100%;
     height: 100%;
@@ -54,4 +54,46 @@ body {
   div#zoom > img {
     width: 100%;
     height: auto;
+  }*/
+
+  .div-sample {
+    width: 1100;
+    height: 400px;
+    padding: 10px;
+    overflow: scroll;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .image-detail-left {
+        width: 100%;
+        background-color: chocolate;
+        height: 100px;
+    }
+    
+    .image-detail-right {
+        width: 100%;
+        height: auto;
+    }
+    .image-detail {
+        height: 100px;
+       
+      }
+       
+  }
+  @media screen and (max-width: 768px) {
+    .image-detail-left {
+        width: 30%;
+        background-color: chocolate;
+        height: 200px;
+    }
+    
+    .image-detail-right {
+        width: 70%;
+        height: auto;
+    }
+    .image-detail {
+        height: 200px;
+       
+      }
+       
   }

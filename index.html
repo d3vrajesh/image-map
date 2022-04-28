@@ -15,24 +15,35 @@
  
     </div>
     <div class="image-detail-right">
-        <div class="image-node-title padding-10">Title-text</div>
-        <div class="image-node-description padding-10">Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description</div>
+        <div class="image-node-title padding-10"><h3 id="image-title"> Title-text </h3></div>
+        <div class="image-node-description padding-10"><p id="image-description">Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description </p></div>
         <div class="image-node-button padding-10"><button class="image-node-button">Read more</button></div>
 
     </div>
 
 </div>
-<hr>
-<div class="image-map-box">
+
+<!-----<div class="image-map-box">
     <div class="zoom_outer">
         <div id="zoom">
-          <img src="20 years timeline.jpg" alt="institutional_road_map" usemap="#roadmap">
+        <img src="20 years timeline.jpg" alt="institutional_road_map" usemap="#roadmap">
           <map name="workmap">
             <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
           </map>
         </div>
-
+      
+      
 </div>
+</div> 
+--->
+<div class="div-sample">
+  <img src="20 years timeline.jpg" usemap="#image-map">
+
+      <map name="image-map">
+          <area id="1" target="_blank" alt="Office in Pondichery" title="Office in Pondichery" href="https://www.w3schools.com/html/html_images_imagemap.asp" coords="41,783,191,860" shape="rect">
+          <area id="2" target="_blank" alt="Cintra - First Home &amp; Office in Kotagiri" title="Cintra - First Home &amp; Office in Kotagiri" href="https://www.w3schools.com/html/html_images_imagemap.asp" coords="206,809,438,901" shape="rect">
+          <area id="3" target="_blank" alt="Star" title="Star" href="https://en.wikipedia.org/wiki/Image" coords="1624,813,1539,765,1469,798,1480,713,1425,658,1506,632,1528,548,1591,640,1661,643,1605,721" shape="poly">
+      </map>
 </div>
    <script src="image_map.js"></script>
 </body>
