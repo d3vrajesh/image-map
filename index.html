@@ -11,15 +11,16 @@
 <div class="container">
 <div class="image-detail">
     <div class="image-detail-left">
-    
+    <img class="image-size" id="image-thumbnail" src="images/look.jpg" alt="">
  
     </div>
     <div class="image-detail-right">
-        <div class="image-node-title padding-10"><h3 id="image-title"> Title-text </h3></div>
-        <div class="image-node-description padding-10"><p id="image-description">Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description </p></div>
-        <div class="image-node-button padding-10"><button class="image-node-button">Read more</button></div>
+        <div class="image-node-title padding-left-10"><h3 id="image-title"> Image Map </h3></div>
+        <div class="image-node-description padding-left-10"><p  class="image-description-limit" id="image-description">Hi, Here I have stored some information on the below image. Click on one of the following items. Cintra, Honey Hunters, and Office in pondichery. Booooom! </p><a id="image-description-read-more" href="" target="_blank"></a></div>
+        
+        
 
-    </div>
+    
 
 </div>
 
@@ -34,17 +35,24 @@
       
       
 </div>
-</div> 
---->
-<div class="div-sample">
+
+---></div> 
+<div class="image-box-div">
   <img src="20 years timeline.jpg" usemap="#image-map">
 
       <map name="image-map">
-          <area id="1" target="_blank" alt="Office in Pondichery" title="Office in Pondichery" href="https://www.w3schools.com/html/html_images_imagemap.asp" coords="41,783,191,860" shape="rect">
-          <area id="2" target="_blank" alt="Cintra - First Home &amp; Office in Kotagiri" title="Cintra - First Home &amp; Office in Kotagiri" href="https://www.w3schools.com/html/html_images_imagemap.asp" coords="206,809,438,901" shape="rect">
-          <area id="3" target="_blank" alt="Star" title="Star" href="https://en.wikipedia.org/wiki/Image" coords="1624,813,1539,765,1469,798,1480,713,1425,658,1506,632,1528,548,1591,640,1661,643,1605,721" shape="poly">
+        <area target="" alt="Cintra" title="Cintra" href="#" coords="203,805,442,897" shape="rect" onclick="imageNode1();" class="image-map-class">
+
+        <area target="" alt="Honey hunters" title="Honey hunters" href="#" coords="33,500,272,596" shape="rect" onclick="imageNode2();" class="image-map-class" >
+    
+        <area target="" alt="Office in Pondichery" title="Office in Pondichery" href="#" coords="41,787,188,857" shape="rect" onclick="imageNode3();" class="image-map-class" >
+           
       </map>
+      <img src="20 years timeline.jpg" usemap="#image-map">
 </div>
+</div>
+ 
+
    <script src="image_map.js"></script>
 </body>
 </html>
