@@ -1,17 +1,14 @@
-body {
-     margin: 0, auto;
-     
-}
-.container {
+.image-map-container {
     width: auto;
     margin: 20px;
-    border:  #01699b  1px solid;
+    border:  #404e61  1px solid;
+    border-radius: 10px;
     padding: 5px;
 
 }
 .image-detail {  
     height: 300px;
-    padding: 10px;
+     
     background-color:   #f7f6f6  ;
 }
 
@@ -57,11 +54,13 @@ body {
     height: 400px;
     overflow: scroll;
     margin-top: 20px;
-   
-  
   }
- 
-  
+ /* for omekas override */
+  img {
+      max-width: none !important;
+  }
+
+  /* mobile responsive section */
   @media screen and (max-width: 480px) {
     .image-detail-left {
         width: 100%;

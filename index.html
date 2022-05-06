@@ -1,53 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Map</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Map</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<div class="container">
-<div class="image-detail">
-    <div class="image-detail-left">
-    <img class="image-size" id="image-thumbnail" src="images/look.jpg" alt="">
- 
-    </div>
-    <div class="image-detail-right">
-        <div class="image-node-title padding-left-10"><h3 id="image-title"> Image Map </h3></div>
-        <div class="image-node-description padding-left-10"><p  class="image-description-limit" id="image-description">Hi, Here I have stored some information on the below image. Click on one of the following items. Cintra, Honey Hunters, and Office in pondichery. Booooom! </p><a id="image-description-read-more" href="" target="_blank"></a></div>
-        
-</div>
+  <!----Main Container-->
+  <div class="image-map-container">
 
-<!-----<div class="image-map-box">
-    <div class="zoom_outer">
-        <div id="zoom">
-        <img src="20 years timeline.jpg" alt="institutional_road_map" usemap="#roadmap">
-          <map name="workmap">
-            <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
-          </map>
+      <!----Image section-->
+    <div class="image-detail">
+      <div class="image-detail-left">
+        <img class="image-size" id="image-thumbnail" src="http://localhost/upload/image/look.jpg" alt="">
+
+      </div>
+        <!----Image Description section-->
+      <div class="image-detail-right">
+        <div class="image-node-title padding-left-10">
+          <h1 id="image-title"> Image Map </h1>
         </div>
-      
-      
-</div>
+        <div class="image-node-description padding-left-10">
+          <p class="image-description-limit" id="image-description">Hi, Here I have stored some information on the below
+            image. Click on one of the following items. Cintra, Honey Hunters, and Office in pondichery. Booooom! </p><a
+            id="image-description-read-more" href="" target="_blank"></a>
+        </div>
 
----></div> 
-<div class="image-box-div">
-  <img src="20 years timeline.jpg" usemap="#image-map">
+      </div>
+
+    </div>
+
+      <!----Image map section-->
+    <div class="image-box-div">
+      <img src="http://localhost/upload/image/20_years_timeline.jpg" usemap="#image-map" width="4100" height="1000">
 
       <map name="image-map">
-        <area target="" alt="Cintra" title="Cintra" href="#" coords="203,805,442,897" shape="rect" onclick="imageNode1();" class="image-map-class">
+        <area target="" alt="Cintra" title="Cintra" href="#" coords="203,805,442,897" shape="rect"
+          onclick="imageNode1();" class="image-map-class">
 
-        <area target="" alt="Honey hunters" title="Honey hunters" href="#" coords="33,500,272,596" shape="rect" onclick="imageNode2();" class="image-map-class" >
-    
-        <area target="" alt="Office in Pondichery" title="Office in Pondichery" href="#" coords="41,787,188,857" shape="rect" onclick="imageNode3();" class="image-map-class" >
-           
+        <area target="" alt="Honey hunters" title="Honey hunters" href="#" coords="33,500,272,596" shape="rect"
+          onclick="imageNode2();" class="image-map-class">
+
+        <area target="" alt="Office in Pondichery" title="Office in Pondichery" href="#" coords="41,787,188,857"
+          shape="rect" onclick="imageNode3();" class="image-map-class">
+
       </map>
-</div>
-</div>
- 
+    </div>
+  </div>
 
-   <script src="image_map.js"></script>
+
+  <script src="image_map.js"></script>
 </body>
+
 </html>
